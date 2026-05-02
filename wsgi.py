@@ -1,1 +1,4 @@
-flaskrequirements.txt echo gunicorn echo from app import app\n\nif __name__ == "__main__":\n    app. run()
+from app import app
+
+if __name__ == "__main__":
+    app.run()
